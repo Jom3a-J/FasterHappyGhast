@@ -1,0 +1,54 @@
+{
+	"fhg.config.title": "Faster Happy Ghast",
+	"fhg.config.category.movement": "Movement",
+
+	"fhg.config.enabled": "Enable mod",
+	"fhg.config.enabled.tooltip": "Turn off to fly a completely vanilla Happy Ghast.",
+
+	"fhg.config.speed": "Top speed",
+	"fhg.config.speed.tooltip": "Top flying speed, relative to vanilla.\nVanilla (100%) is about 3.3 blocks/sec, slower than walking.\n200% is about 6.6 blocks/sec, 300% is about 10.",
+
+	"fhg.config.vertical": "Climb / dive speed",
+	"fhg.config.vertical.tooltip": "Extra multiplier on climbing and diving, on top of top speed.\nHold jump to climb, look down and move forward to dive.",
+
+	"fhg.config.sprint_enabled": "Sprint boost",
+	"fhg.config.sprint_enabled.tooltip": "Lets you sprint while riding. Hold the sprint key with forward held.",
+
+	"fhg.config.sprint_boost": "Sprint boost strength",
+	"fhg.config.sprint_boost.tooltip": "Top speed multiplier while sprinting.\n100% means sprinting gives no extra speed.\n150% means sprinting is half again as fast as cruising.",
+
+	"fhg.config.responsiveness": "Responsiveness",
+	"fhg.config.responsiveness.tooltip": "How quickly the ghast reaches and sheds its top speed.\n0% is vanilla's floaty drift, 100% stops on a dime.\nDoes not change top speed.",
+
+	"fhg.config.turn_speed": "Turn rate",
+	"fhg.config.turn_speed.tooltip": "How fast the ghast swings towards where you are looking.\nVanilla is 8%. Higher turns tighter.",
+
+	"faster_happy_ghast.configuration.title": "Faster Happy Ghast",
+	"faster_happy_ghast.configuration.section.faster.happy.ghast.common.toml": "Faster Happy Ghast",
+	"faster_happy_ghast.configuration.section.faster.happy.ghast.common.toml.title": "Faster Happy Ghast Settings",
+
+	"faster_happy_ghast.configuration.movement": "Movement",
+	"faster_happy_ghast.configuration.movement.button": "Movement",
+	"faster_happy_ghast.configuration.movement.tooltip": "Flight tuning for ridden Happy Ghasts.",
+
+	"faster_happy_ghast.configuration.enabled": "Enable mod",
+	"faster_happy_ghast.configuration.enabled.tooltip": "Turn off to fly a completely vanilla Happy Ghast.",
+
+	"faster_happy_ghast.configuration.speedPercent": "Top speed",
+	"faster_happy_ghast.configuration.speedPercent.tooltip": "Top flying speed, as a percentage of vanilla.\n100 is vanilla, about 3.3 blocks/sec and slower than walking.\n200 is about 6.6 blocks/sec, 300 is about 10.",
+
+	"faster_happy_ghast.configuration.verticalPercent": "Climb / dive speed",
+	"faster_happy_ghast.configuration.verticalPercent.tooltip": "Extra multiplier on climbing and diving, on top of top speed.\nHold jump to climb, look down and move forward to dive.\n100 leaves vertical speed alone.",
+
+	"faster_happy_ghast.configuration.sprintBoostEnabled": "Sprint boost",
+	"faster_happy_ghast.configuration.sprintBoostEnabled.tooltip": "Lets you sprint while riding, which vanilla forbids outright.\nHold the sprint key with forward held.",
+
+	"faster_happy_ghast.configuration.sprintBoostPercent": "Sprint boost strength",
+	"faster_happy_ghast.configuration.sprintBoostPercent.tooltip": "Top speed while sprinting, as a percentage of your cruising speed.\n100 means sprinting gives no extra speed.\n150 means sprinting is half again as fast as cruising.",
+
+	"faster_happy_ghast.configuration.responsivenessPercent": "Responsiveness",
+	"faster_happy_ghast.configuration.responsivenessPercent.tooltip": "How quickly the ghast reaches and sheds its top speed.\n0 is vanilla's floaty drift, 100 stops on a dime.\nDoes not change top speed.",
+
+	"faster_happy_ghast.configuration.turnSpeedPercent": "Turn rate",
+	"faster_happy_ghast.configuration.turnSpeedPercent.tooltip": "How fast the ghast swings towards where you are looking.\nVanilla is 8. Higher turns tighter."
+}

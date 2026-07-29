@@ -1,0 +1,31 @@
+modLoader = "javafml"
+loaderVersion = "[1,)"
+license = "MIT"
+issueTrackerURL = "https://github.com/Jom3a-J/FasterHappyGhast/issues"
+
+[[mods]]
+modId = "faster_happy_ghast"
+version = "${version}"
+displayName = "Faster Happy Ghast"
+authors = "Jom3a"
+logoFile = "assets/faster-happy-ghast/icon.png"
+description = '''
+Makes the Happy Ghast fast enough to actually ride. Fully configurable.
+'''
+
+[[mixins]]
+config = "faster-happy-ghast.mixins.json"
+
+[[dependencies.faster_happy_ghast]]
+modId = "neoforge"
+type = "required"
+versionRange = "[26.2,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.faster_happy_ghast]]
+modId = "minecraft"
+type = "required"
+versionRange = "[26.2,26.3)"
+ordering = "NONE"
+side = "BOTH"

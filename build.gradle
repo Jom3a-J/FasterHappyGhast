@@ -1,0 +1,32 @@
+subprojects {
+	apply plugin: 'java'
+	apply plugin: 'maven-publish'
+
+	version = rootProject.mod_version
+	group = rootProject.maven_group
+
+	repositories {
+		maven {
+			name = 'Shedaniel'
+			url = 'https://maven.shedaniel.me/'
+		}
+		maven {
+			name = 'TerraformersMC'
+			url = 'https://maven.terraformersmc.com/releases/'
+		}
+	}
+
+	tasks.withType(JavaCompile).configureEach {
+		it.options.release = 25
+	}
+
+	java {
+		withSourcesJar()
+		sourceCompatibility = JavaVersion.VERSION_25
+		targetCompatibility = JavaVersion.VERSION_25
+	}
+
+	// Both platforms compile the same shared sources straight from ../common.
+	sourceSets.main.java.srcDir rootProject.file('common/src/main/java')
+	sourceSets.main.resources.srcDir rootProject.file('common/src/main/resources')
+}

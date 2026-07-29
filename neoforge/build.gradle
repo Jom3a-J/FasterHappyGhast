@@ -1,0 +1,40 @@
+plugins {
+	id 'net.neoforged.moddev' version "${moddev_version}"
+}
+
+base {
+	archivesName = "${rootProject.archives_base_name}-neoforge"
+}
+
+neoForge {
+	version = rootProject.neoforge_version
+
+	mods {
+		"faster_happy_ghast" {
+			sourceSet sourceSets.main
+		}
+	}
+
+	runs {
+		client {
+			client()
+		}
+		server {
+			server()
+		}
+	}
+}
+
+processResources {
+	inputs.property "version", project.version
+
+	filesMatching("META-INF/neoforge.mods.toml") {
+		expand "version": project.version
+	}
+}
+
+jar {
+	from(rootProject.file("LICENSE")) {
+		rename { "${it}_${rootProject.archives_base_name}" }
+	}
+}

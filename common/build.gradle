@@ -1,0 +1,17 @@
+plugins {
+	id 'dev.architectury.loom'
+}
+
+architectury {
+	common('fabric', 'neoforge')
+}
+
+dependencies {
+	minecraft "com.mojang:minecraft:${rootProject.minecraft_version}"
+	// Minecraft 26.2 ships unobfuscated: the version manifest has no client_mappings or
+	// server_mappings entry, so there is nothing for officialMojangMappings() to fetch.
+	// An empty layered spec gives identity mappings, which is what this version needs.
+	mappings loom.layered {}
+	// Architectury's common project compiles against the Fabric loader's mixin tooling.
+	modImplementation "net.fabricmc:fabric-loader:${rootProject.loader_version}"
+}
