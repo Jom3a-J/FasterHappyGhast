@@ -81,6 +81,8 @@ Two differences worth knowing: it speeds up wild ghasts too (the attribute belon
 - Fabric, NeoForge, Quilt (via the Fabric jar)
 - Touches only the ridden Happy Ghast's movement — no world generation, no new items, no registry changes
 
+What changed between releases: [CHANGELOG.md](CHANGELOG.md).
+
 ## License
 
 MIT. Do what you like with it.
