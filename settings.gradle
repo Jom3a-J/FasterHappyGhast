@@ -16,7 +16,7 @@ pluginManagement {
 // Should match your modid
 rootProject.name = 'faster-happy-ghast'
 
-// `common` is a plain shared source directory, not a Gradle project. Minecraft 26.2 ships
+// `common` is a plain shared source directory, not a Gradle project. Minecraft 26.3 ships
 // unobfuscated, so both loaders see identical class names and the shared sources need no
 // remapping transform between platforms.
 include 'fabric'

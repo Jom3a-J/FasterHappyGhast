@@ -77,7 +77,7 @@ Two differences worth knowing: it speeds up wild ghasts too (the attribute belon
 
 ## Compatibility
 
-- Minecraft **26.2**
+- Minecraft **26.3**
 - Fabric, NeoForge, Quilt (via the Fabric jar)
 - Touches only the ridden Happy Ghast's movement — no world generation, no new items, no registry changes
 
