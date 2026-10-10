@@ -19,6 +19,9 @@
 		"main": [
 			"com.fhg.fabric.FasterHappyGhastFabric"
 		],
+		"client": [
+			"com.fhg.fabric.FasterHappyGhastFabricClient"
+		],
 		"modmenu": [
 			"com.fhg.fabric.FhgModMenu"
 		]

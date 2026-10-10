@@ -5,6 +5,10 @@
 	"mixins": [
 		"HappyGhastMixin"
 	],
+	"client": [
+		"client.CameraMixin",
+		"client.MouseHandlerMixin"
+	],
 	"injectors": {
 		"defaultRequire": 1
 	},

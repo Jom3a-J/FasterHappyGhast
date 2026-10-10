@@ -27,6 +27,10 @@ Vanilla flatly forbids sprinting on a Happy Ghast — not a balance decision, ju
 
 ![sprinting](https://cdn.modrinth.com/data/cached_images/8c32fc10efdd3f8342ed46308f339b6d433a4513.gif)
 
+### Free look
+
+Hold **Left Alt** while riding to look around without steering — the ghast keeps flying the way it was heading. Let go and the view eases back to your flight direction. Works in first and third person, and you can rebind it under Controls → Movement.
+
 ## Defaults
 
 | Setting | Default | Result |

@@ -1,5 +1,17 @@
 # Changelog
 
+## 1.1.1 — 2026-10-10
+
+Still Minecraft **26.3**. Flight physics and every default are unchanged, and your config carries over.
+
+### Added
+
+- **Free look.** Hold **Left Alt** while riding a Happy Ghast to look around without steering it — the ghast keeps flying the way it was heading. Let go and the view eases back to your flight direction. Works in first and third person. Rebind or unbind it under Controls → Movement → "Free Look (Happy Ghast)".
+
+### Fixed
+
+- **The datapack actually loads on 26.3 now.** 1.1.0 fixed its pack format but missed that 26.3 also changed the predicate format, so the world refused to load with the pack enabled. If you hit that, update the pack and enable it again with `/datapack enable "file/faster-happy-ghast"`.
+
 ## 1.1.0 — 2026-09-16
 
 Minecraft **26.3** support. This is a port, not a feature release — **nothing about how the ghast flies has changed.** Your config carries over and the defaults are identical.
