@@ -26,8 +26,8 @@
 	"fhg.config.turn_speed.tooltip": "How fast the ghast swings towards where you are looking.\nVanilla is 8%. Higher turns tighter.",
 
 	"faster_happy_ghast.configuration.title": "Faster Happy Ghast",
-	"faster_happy_ghast.configuration.section.faster.happy.ghast.common.toml": "Faster Happy Ghast",
-	"faster_happy_ghast.configuration.section.faster.happy.ghast.common.toml.title": "Faster Happy Ghast Settings",
+	"faster_happy_ghast.configuration.section.faster.happy.ghast.local.toml": "Faster Happy Ghast",
+	"faster_happy_ghast.configuration.section.faster.happy.ghast.local.toml.title": "Faster Happy Ghast Settings",
 
 	"faster_happy_ghast.configuration.movement": "Movement",
 	"faster_happy_ghast.configuration.movement.button": "Movement",

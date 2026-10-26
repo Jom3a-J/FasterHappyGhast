@@ -65,7 +65,8 @@ Everything is adjustable in-game, no restart needed.
 - [Mod Menu](https://modrinth.com/mod/modmenu) — optional, but it's how you open the config screen
 
 **NeoForge**
-- No dependencies
+- NeoForge 26.3.0.37 or newer
+- No other dependencies
 
 **Quilt**
 - Use the Fabric jar. Quilt Loader runs it through its Fabric compatibility layer.

@@ -1,5 +1,18 @@
 # Changelog
 
+## 1.1.2 — 2026-10-26
+
+Still Minecraft **26.3**. Fabric is unchanged; this release is for NeoForge.
+
+### Fixed
+
+- **The mod loads on current NeoForge again.** NeoForge 26.3.0.37 renamed the config type the mod registers with, so on any NeoForge 26.3 build from 26.3.0.37 on, including the current stable releases, 1.1.1 failed to load. It now needs NeoForge **26.3.0.37 or newer**.
+- Your settings carry over. NeoForge now names the config file `faster_happy_ghast-local.toml` instead of `faster_happy_ghast-common.toml`, and the mod renames the old file on first launch.
+
+### Updated
+
+- NeoForge 26.3.0.3-beta → 26.3.0.99
+
 ## 1.1.1 — 2026-10-10
 
 Still Minecraft **26.3**. Flight physics and every default are unchanged, and your config carries over.

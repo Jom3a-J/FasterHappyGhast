@@ -20,7 +20,7 @@ config = "faster-happy-ghast.mixins.json"
 [[dependencies.faster_happy_ghast]]
 modId = "neoforge"
 type = "required"
-versionRange = "[26.3,)"
+versionRange = "[26.3.0.37-beta,)"
 ordering = "NONE"
 side = "BOTH"
 
